@@ -1,0 +1,11 @@
+.el-table {
+  display: flex;
+  flex-direction: column;
+}
+.el-table .el-table__header-wrapper {
+  flex-shrink: 0;
+}
+
+.el-table .el-table__body-wrapper {
+  flex-grow: 1;
+}
